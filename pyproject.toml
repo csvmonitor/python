@@ -6,7 +6,11 @@ build-backend = "flit_core.buildapi"
 name = "csvmonitor"
 authors = [{name = "CSVMonitor.com", email = "support@csvmonitor.com"}]
 license = {file = "LICENSE"}
+readme = "README.md"
 classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+    "requests"
+]
 dynamic = ["version", "description"]
 
 [project.urls]
